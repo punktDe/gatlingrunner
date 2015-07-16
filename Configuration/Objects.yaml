@@ -1,0 +1,10 @@
+PunktDe\Gatling\Logger\LoggerInterface:
+  scope: singleton
+  factoryObjectName: TYPO3\Flow\Log\LoggerFactory
+  arguments:
+    1:
+      value: 'PunktDe_Gatling'
+    2:
+      value: 'TYPO3\Flow\Log\Logger'
+    3:
+      value: 'TYPO3\Flow\Log\Backend\ConsoleBackend'
